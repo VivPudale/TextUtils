@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export default function Textform(props) {
+  // write a comment
   const [text, setText] = useState("");
 
   const handleUpClick = () => {
